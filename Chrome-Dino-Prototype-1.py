@@ -9,13 +9,13 @@ screen = pygame.display.set_mode((800, 400))
 pygame.display.set_caption("Game 1")
 
 # Background setup
-img1 = pygame.image.load('bg1.png').convert_alpha()
+img1 = pygame.image.load('Images-4-dino/bg1.png').convert_alpha()
 bg1 = pygame.transform.scale(img1, (800, 400))
-img2 = pygame.image.load('bg2.png').convert_alpha()
+img2 = pygame.image.load('Images-4-dino/bg2.png').convert_alpha()
 bg2 = pygame.transform.scale(img2, (800, 400))
-img3 = pygame.image.load('bg3.png').convert_alpha()
+img3 = pygame.image.load('Images-4-dino/bg3.png').convert_alpha()
 bg3 = pygame.transform.scale(img3, (800, 400))
-img4 = pygame.image.load('bg4.png').convert_alpha()
+img4 = pygame.image.load('Images-4-dino/bg4.png').convert_alpha()
 bg4 = pygame.transform.scale(img4, (800, 400))
 bg_frames = [bg1, bg2, bg3, bg4]
 
